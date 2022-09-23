@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="114dp"
+    android:layout_height="160dp"
+    android:layout_marginLeft="15dp"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvi_ct"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:layout_margin="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardCornerRadius="6dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ivi_product"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/image_test"
+                android:scaleType="centerCrop">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/ic_like2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></TextView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/tvi_title_product"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/noto_sans"
+        android:gravity="left"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="Arroz con leche"
+        android:textColor="@color/descrip_color2"
+        android:textSize="9sp"
+        app:layout_constraintEnd_toEndOf="@+id/cvi_ct"
+        app:layout_constraintStart_toStartOf="@+id/cvi_ct"
+        app:layout_constraintTop_toBottomOf="@+id/cvi_ct" />
+
+
+    <TextView
+        android:id="@+id/tvi_price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/noto_sans"
+        android:gravity="left"
+        android:lines="1"
+        android:text="S/ 9.90"
+        android:textColor="@color/title_color"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvi_title_product"
+        app:layout_constraintStart_toStartOf="@+id/tvi_title_product"
+        app:layout_constraintTop_toBottomOf="@+id/tvi_title_product" />
+
+    <TextView
+        android:id="@+id/but_add_product"
+        android:layout_width="0dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/but_background_products"
+        android:elevation="3dp"
+        android:fontFamily="@font/noto_sans"
+        android:gravity="center"
+        android:text="Agregar"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tvi_price"
+        app:layout_constraintStart_toStartOf="@+id/tvi_price"
+        app:layout_constraintTop_toBottomOf="@+id/tvi_price" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

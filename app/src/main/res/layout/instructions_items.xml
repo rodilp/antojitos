@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_steps" />
+
+    <TextView
+        android:id="@+id/tvi_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Paso 1"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/title_color"
+        android:textSize="12sp"
+        android:fontFamily="@font/noto_sans"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvi_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Baje la temperatura al mínimo y deje cocinar la preparación por 20 minutos aproximadamente, revolviendo de vez en cuando"
+        android:textSize="10sp"
+        android:textStyle="normal"
+        android:textColor="@color/descrip_color"
+        android:fontFamily="@font/noto_sans"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvi_title"
+        app:layout_constraintTop_toBottomOf="@+id/tvi_title" />
+</androidx.constraintlayout.widget.ConstraintLayout>

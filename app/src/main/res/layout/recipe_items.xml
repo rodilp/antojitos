@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cvi_items_category"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="170dp"
+    android:layout_height="190dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="@color/white"
+    app:cardCornerRadius="15dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    app:cardElevation="3dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cla_recipes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.58" />
+
+        <ImageView
+            android:id="@+id/ivi_icon_recipe"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toTopOf="@+id/guideline4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_undraw_doctors_hwty" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/ic_verri"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"></TextView>
+
+        <TextView
+            android:id="@+id/tvi_title_recipe"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Arroz con leche"
+            android:fontFamily="@font/noto_sans"
+            android:textColor="@color/title_color"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_marginTop="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline4" />
+
+        <TextView
+            android:id="@+id/tvi_title_descrip"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/prepara_un_delicioso"
+            android:textSize="8sp"
+            android:textAlignment="center"
+            android:textColor="@color/descrip_color"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:fontFamily="@font/noto_sans"
+            android:paddingRight="11dp"
+            android:paddingLeft="11dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvi_title_recipe" />
+
+        <TextView
+            android:id="@+id/tvi_minutes"
+            android:layout_width="62dp"
+            android:layout_height="20dp"
+            android:text="15 MIN"
+            android:textSize="8sp"
+            android:fontFamily="@font/noto_sans"
+            android:gravity="center"
+            android:layout_marginLeft="11dp"
+            android:textColor="@color/descrip_color"
+            android:background="@drawable/buttom_background"
+            android:backgroundTint="@color/secondary_c"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvi_title_descrip" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="11dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvi_title_descrip"
+            app:srcCompat="@drawable/ic_like" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

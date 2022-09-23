@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Antojitos</string>
+
+
+    <string name="onboarding_slide1_title">Antojitos</string>
+    <string name="onboarding_slide1_subtitle">¿Te gusta preparar antojitos?</string>
+    <string name="onboarding_slide1_desc">Prepara tus antojos con nuestra gran variadad de recetas especiales </string>
+
+    <string name="onboarding_slide2_title">Antojitos</string>
+    <string name="onboarding_slide2_subtitle">Recetas Saludables a un solo click!</string>
+    <string name="onboarding_slide2_desc">Accede a nuestra gran variedad de recetas especiales para personas diabéticas</string>
+
+    <string name="onboarding_slide3_title">Antojitos</string>
+    <string name="onboarding_slide3_subtitle">Contacto directo con nuestros especialistas!</string> <!--  -->
+    <string name="onboarding_slide3_desc">Recetas garantizadas y aprobadas por medicos especialistas y nutricionistas</string>
+    <string name="title_activity_main_menu">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="prepara_un_delicioso"><![CDATA[Prepara un delicioso arroz con leche sin azucar, especial para diabetico <3 cdcd cdcd]]></string>
+
+
+    <string name="job_success">Éxito laboral</string>
+    <string name="ui_ux_designer">UI/UX Designer</string>
+    <string name="my_desc">Soy Nutricionista egresada hace nueve años de la Universidad Femina del Sagrado Corazón UNIFÉ, actualmente estoy culminando la maestría internacional de Nutrición y Dietética en la Universidad Científica del Sur UCSUR, cuento con la especialidad en Sistemas de Gestión de Calidad y Seguridad Alimentaria en la Universidad Nacional Agraria La Molina y además un Diplomado en Nutrición Pública por la Red Peruana de Alimentación y Nutrición RPAN.</string>
+    <string name="about_me">Sobre mí</string>
+    <string name="contact">Contacto</string>
+    <string name="skills">Habilidades</string>
+    <string name="ratings">Clasificación</string>
+    <string name="samplereview">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium bibendum sapien, ut euismod massa. Duis convallis sem sed turpis elementum auctor.</string>
+
+</resources>

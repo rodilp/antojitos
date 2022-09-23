@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "473591104829",
+    "project_id": "antojitos-91017",
+    "storage_bucket": "antojitos-91017.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473591104829:android:7c4e8b39aab2a0f66cf154",
+        "android_client_info": {
+          "package_name": "com.antojitos.pe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "473591104829-iq74984lcdsb8953e9g26imi2nddo7bk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFHwXTBg73zLHzOwppWPGFx1hpchy-1Jg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "473591104829-iq74984lcdsb8953e9g26imi2nddo7bk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
